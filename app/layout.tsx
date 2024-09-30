@@ -28,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <h1>This will be always rendered with its children such as docs and it is cached</h1>
         {children}
       </body>
     </html>

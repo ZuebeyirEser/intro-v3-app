@@ -1,6 +1,7 @@
-const DocsIdPage = () => {
+const DocsIdPage = ({params}) => {
+    console.log(params);
     return (
-        <div>Docs Id Page</div>   
+        <div>Docs Id {} Page</div>   
     )
 }
 export default DocsIdPage;
