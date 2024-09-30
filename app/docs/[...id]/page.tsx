@@ -3,4 +3,4 @@ const DocsIdPage = () => {
         <div>Docs Id Page</div>   
     )
 }
-export default  DocsIdPage;
+export default DocsIdPage;
