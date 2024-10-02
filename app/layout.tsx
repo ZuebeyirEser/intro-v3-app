@@ -25,11 +25,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <header>
+        <nav>
+          <ul className="flex item-center"></ul>
+        </nav>
+      </header>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <h1>This will be always rendered with its children such as docs and it is cached</h1>
-        {children}
+        <h1>This will be always rendered with its children such as docs and it is cached:even tho rout changes layout is always there </h1>
+        <div>{children}</div>
+
       </body>
     </html>
   );
